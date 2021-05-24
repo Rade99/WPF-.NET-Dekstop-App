@@ -1,0 +1,132 @@
+﻿<Window x:Class="UI.Rezultati"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Rezultati" SizeToContent="WidthAndHeight" WindowStyle="None" Background="Transparent"  AllowsTransparency="True">
+    <Canvas Height="450" Width="982">
+        <Path Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.399,0.631" Canvas.Left="-0.8" Canvas.Top="-0.918" Stretch="Fill" Width="983.858" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.092"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.513"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <ImageBrush ImageSource="slike/pozadina.jpg"/>
+            </Path.Fill>
+
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="20,0">
+                        <LineSegment Point="0,20"/>
+                        <LineSegment Point="0,430"/>
+                        <LineSegment Point="20,450"/>
+                        <LineSegment Point="780,450"/>
+                        <LineSegment Point="800,430"/>
+                        <LineSegment Point="800,20"/>
+                        <LineSegment Point="780,0"/>
+                        <LineSegment Point="20,0"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+
+        </Path>
+
+        <DataGrid x:Name="Grid"  Height="285" Width="852" Canvas.Top="145" AutoGenerateColumns="False"  Canvas.Left="10" ItemsSource = "{Binding listBinding}">
+
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Sifra" Width="100" IsReadOnly="True" Binding= "{Binding sifraPodrucija}"  >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+
+
+
+                <DataGridTextColumn Header="Naziv geografskog podrucija" Binding= "{Binding nazivPodrucija}"  Width="170" IsReadOnly="True"  >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+
+
+
+
+                <DataGridTextColumn Header="Poslednji proracun
+                                    "  Width="170" Binding= "{Binding dan}" IsReadOnly="True">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Header="PoslednjeMerenje"  Width="170" Binding= "{Binding poslednjeMerenje}" IsReadOnly="True">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Header="Minimum"  Width="80" IsReadOnly="True" Binding= "{Binding minimum}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+
+                <DataGridTextColumn Header="Maksimum"  Width="80" IsReadOnly="True" Binding= "{Binding maximum}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Header="Devijacija"  Width="80" IsReadOnly="True" Binding= "{Binding devijacija}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center" />
+
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+
+
+
+        <Button x:Name="IzlazBtn" Content="Izlaz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="IzlazBtn_Click" Background="#FFDDDDDD" Canvas.Left="880" Canvas.Top="411" RenderTransformOrigin="0.808,0.371"/>
+        <Button x:Name="RefreshBtn" Content="Refresh" Canvas.Left="767" Canvas.Top="92" Width="95" Height="34" Click="RefreshBtn_Click"/>
+
+    </Canvas>
+</Window>

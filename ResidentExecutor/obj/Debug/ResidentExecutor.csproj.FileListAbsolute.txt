@@ -1,0 +1,37 @@
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\bin\Debug\ResidentExecutor.dll
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\bin\Debug\ResidentExecutor.pdb
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\bin\Debug\Common.dll
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\bin\Debug\Common.pdb
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\obj\Debug\ResidentExecutor.csprojAssemblyReference.cache
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CoreCompileInputs.cache
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CopyComplete
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\obj\Debug\ResidentExecutor.dll
+C:\fax\res\ResidentProjDLL\Zadatak5\ResidentExecutor\obj\Debug\ResidentExecutor.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\ResidentExecutor.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\ResidentExecutor.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\Common.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\Common.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\obj\Debug\ResidentExecutor.csprojAssemblyReference.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CoreCompileInputs.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CopyComplete
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\obj\Debug\ResidentExecutor.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\obj\Debug\ResidentExecutor.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\DAO.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\System.Data.SQLite.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\DAO.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\DAO.dll.config
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\bin\Debug\System.Data.SQLite.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\ResidentExecutor.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\ResidentExecutor.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\Common.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\DAO.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\System.Data.SQLite.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\Common.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\DAO.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\DAO.dll.config
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\bin\Debug\System.Data.SQLite.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\obj\Debug\ResidentExecutor.csprojAssemblyReference.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CoreCompileInputs.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\obj\Debug\ResidentExecutor.csproj.CopyComplete
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\obj\Debug\ResidentExecutor.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\ResidentExecutor\obj\Debug\ResidentExecutor.pdb

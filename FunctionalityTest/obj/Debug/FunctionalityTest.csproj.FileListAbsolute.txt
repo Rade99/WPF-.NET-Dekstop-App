@@ -1,0 +1,64 @@
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\obj\Debug\FunctionalityTest.csprojAssemblyReference.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\obj\Debug\FunctionalityTest.csproj.CoreCompileInputs.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\nunit.engine.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\nunit.engine.api.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\nunit.engine.core.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\FunctionalityTest.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\FunctionalityTest.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Castle.Core.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Common.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Moq.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\nunit.framework.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Common.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Castle.Core.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Moq.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\nunit.framework.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\obj\Debug\FunctionalityTest.csproj.CopyComplete
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\obj\Debug\FunctionalityTest.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\obj\Debug\FunctionalityTest.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Functionality.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\DAO.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\ResidentExecutor.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\Functionality.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\DAO.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\DAO.dll.config
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\ResidentExecutor.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\FunctionalityTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\obj\Debug\FunctionalityTest.csprojAssemblyReference.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\obj\Debug\FunctionalityTest.csproj.CoreCompileInputs.cache
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\obj\Debug\FunctionalityTest.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\obj\Debug\FunctionalityTest.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\nunit.engine.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\nunit.engine.api.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\nunit.engine.core.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\FunctionalityTest.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\FunctionalityTest.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Castle.Core.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Common.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\DAO.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Functionality.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Moq.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\nunit.framework.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Common.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\DAO.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\DAO.dll.config
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Functionality.pdb
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Castle.Core.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\Moq.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\nunit.framework.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\FunctionalityTest\obj\Debug\FunctionalityTest.csproj.CopyComplete
