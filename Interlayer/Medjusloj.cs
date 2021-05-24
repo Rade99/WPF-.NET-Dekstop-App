@@ -15,19 +15,65 @@ namespace Interlayer
     public class Medjusloj
     {
         IInvoker invoker = new Invoker();
-        IDAOMerenje daomerenje = new DAOMerenje();
-        IDAORezultat daorezultat = new DAORezultat();
+        IDAOMerenje dAOMerenje = new DAOMerenje();
+        IDAORezultat dAORezultat = new DAORezultat();
+        IDAOPodrucja dAOPodrucja = new DAOPodrucja();
 
         public void InvokeResidentMedju()
         {
             ICitanje csvReader = new Citanje();
             ICsvInput csvInput = csvReader.GetCsvParams(); 
-            invoker.InvokeResident(daomerenje, csvInput,daorezultat);
+            invoker.InvokeResident(dAOMerenje, csvInput, dAORezultat);
         }
 
         public void InvokeSingleMedju(DateTime datum, string sfr, int brFunkcije)
         {
-            invoker.InvokeSingle(datum, sfr, brFunkcije, daomerenje, daorezultat);
+            invoker.InvokeSingle(datum, sfr, brFunkcije, dAOMerenje, dAORezultat);
+        }
+
+        public List<string> GetSvaPodrucjaMedju()
+        {
+            return dAOPodrucja.GetSvaPodrucja();
+        }
+
+        public List<string>  GetIzmerenaPodrucjaMedju()
+        {
+            return dAOMerenje.GetIzmerenaPodrucja();
+        }
+
+        public List<IMerenje> GetMerenjaPoDanuIVremenuMedju(DateTime dt, string sifra)
+        {
+            return dAOMerenje.GetMerenjaPoDanuIVremenu(dt, sifra);
+        }
+
+        public string GetSifreByNazivPodrucjaMedju(string nzv)
+        {
+            return dAOPodrucja.GetSifreByNazivPodrucja(nzv);
+        }
+
+        public List<IMerenje> GetMerenjaPoSifriPodrucijaMedju(string sifra)
+        {
+            return dAOMerenje.GetMerenjaPoSifriPodrucija(sifra);
+        }
+
+        public DateTime GetPoslednjeMerenjeMedju(string sifra, DateTime dv)
+        {
+            return dAOMerenje.GetPoslednjeMerenje(sifra, dv);
+        }
+
+        public List<string> GetSveSifreMedju()
+        {
+            return dAOPodrucja.GetSveSifre();
+        }
+
+        public void UpisNovogPodrucjaMedju(string sifra, string nazivPodrucja)
+        {
+             dAOPodrucja.UpisNovogPodrucja(sifra, nazivPodrucja);
+        }
+
+        public void UpisNovogMerenjaMedju(string sifra, DateTime vrememerenja, float potrosnja)
+        {
+            dAOMerenje.UpisNovogMerenja(sifra, vrememerenja, potrosnja);
         }
 
 

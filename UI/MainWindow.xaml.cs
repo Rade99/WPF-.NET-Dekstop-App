@@ -40,8 +40,8 @@ namespace UI
         }
         private void OsveziComboBoxove()
         {
-            svaPodrucjaTemp = dAOPodrucja.GetSvaPodrucja();
-            izmerenaPodrucja = dAOMerenje.GetIzmerenaPodrucja();
+            svaPodrucjaTemp = medju.GetSvaPodrucjaMedju();
+            izmerenaPodrucja = medju.GetIzmerenaPodrucjaMedju();
 
             ComboSifra.ItemsSource = izmerenaPodrucja;
             ComboNazivPodrucja.ItemsSource = svaPodrucjaTemp;
@@ -77,7 +77,7 @@ namespace UI
                 DatePick.BorderThickness = new Thickness(3);
             }
 
-            if(dAOMerenje.GetMerenjaPoDanuIVremenu((DateTime)DatePick.SelectedDate, dAOPodrucja.GetSifreByNazivPodrucja(ComboSifra.SelectedItem.ToString())).Count == 0)
+            if(medju.GetMerenjaPoDanuIVremenuMedju((DateTime)DatePick.SelectedDate, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString())).Count == 0)
             {
                 rez = false;
                 DatePick.BorderBrush = Brushes.Red;
@@ -161,12 +161,12 @@ namespace UI
         private bool MerenjePrePoslednjeg()
         {
 
-            if(dAOMerenje.GetMerenjaPoSifriPodrucija(dAOPodrucja.GetSifreByNazivPodrucja(ComboNazivPodrucja.SelectedItem.ToString())).Count==0)
+            if(medju.GetMerenjaPoSifriPodrucijaMedju(medju.GetSifreByNazivPodrucjaMedju(ComboNazivPodrucja.SelectedItem.ToString())).Count==0)
             {
                 return true;
             }
 
-            if (DateTimePicker.Value < dAOMerenje.GetPoslednjeMerenje(dAOPodrucja.GetSifreByNazivPodrucja(ComboNazivPodrucja.SelectedItem.ToString()), (DateTime)DateTimePicker.Value))
+            if (DateTimePicker.Value < medju.GetPoslednjeMerenjeMedju(medju.GetSifreByNazivPodrucjaMedju(ComboNazivPodrucja.SelectedItem.ToString()), (DateTime)DateTimePicker.Value))
             {
                 DateTimePicker.BorderBrush = Brushes.Red;
                 DateTimePicker.BorderThickness = new Thickness(3);
@@ -220,7 +220,7 @@ namespace UI
 
             
 
-            foreach (var item in dAOPodrucja.GetSveSifre())
+            foreach (var item in medju.GetSveSifreMedju())
             {
 
                 if (TextBoxSifraGeoPodrucja.Text.Trim() == item)
@@ -255,7 +255,7 @@ namespace UI
 
            
 
-            foreach (var item in dAOPodrucja.GetSveSifre())
+            foreach (var item in medju.GetSveSifreMedju())
             {
                 if (TextBoxNazivGeoPodrucja.Text.Trim() == item)
                 {
@@ -289,7 +289,7 @@ namespace UI
         {
             if (ValidacijaZaDodavanjePodrucja())
             {
-                dAOPodrucja.UpisNovogPodrucja(TextBoxSifraGeoPodrucja.Text.Trim(), TextBoxNazivGeoPodrucja.Text.Trim());
+                medju.UpisNovogPodrucjaMedju(TextBoxSifraGeoPodrucja.Text.Trim(), TextBoxNazivGeoPodrucja.Text.Trim());
                 OsveziComboBoxove();
                 System.Windows.MessageBox.Show("Podrucje Uspesno Dodato!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
                 TextBoxSifraGeoPodrucja.Text = String.Empty;
@@ -302,7 +302,7 @@ namespace UI
 
             if (ValidacijaZaDodavanjeMerenja())
             {
-                dAOMerenje.UpisNovogMerenja(dAOPodrucja.GetSifreByNazivPodrucja(ComboNazivPodrucja.SelectedItem.ToString()), (DateTime)DateTimePicker.Value, float.Parse(textBoxPotrosnja.Text.Trim()));
+                medju.UpisNovogMerenjaMedju(medju.GetSifreByNazivPodrucjaMedju(ComboNazivPodrucja.SelectedItem.ToString()), (DateTime)DateTimePicker.Value, float.Parse(textBoxPotrosnja.Text.Trim()));
                 OsveziComboBoxove();
                 System.Windows.MessageBox.Show("Merenje Uspesno Dodato!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
                 ComboNazivPodrucja.SelectedIndex = -1;
@@ -321,7 +321,7 @@ namespace UI
         {
             if (ValidacijaZaIzvrsenjeFun())
             {
-                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, dAOPodrucja.GetSifreByNazivPodrucja(ComboSifra.SelectedItem.ToString()), 3);
+                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString()), 3);
                 OcistiPoljazaFun();
                 System.Windows.MessageBox.Show("Fun3 Uspesno Izvrsena!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
             }
@@ -331,7 +331,7 @@ namespace UI
         {
             if (ValidacijaZaIzvrsenjeFun())
             {
-                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, dAOPodrucja.GetSifreByNazivPodrucja(ComboSifra.SelectedItem.ToString()), 2);
+                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString()), 2);
                 OcistiPoljazaFun();
                 System.Windows.MessageBox.Show("Fun2 Uspesno Izvrsena!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
             }
@@ -341,7 +341,7 @@ namespace UI
         {
             if (ValidacijaZaIzvrsenjeFun())
             {
-                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, dAOPodrucja.GetSifreByNazivPodrucja(ComboSifra.SelectedItem.ToString()), 1);
+                medju.InvokeSingleMedju(DatePick.SelectedDate.Value.Date, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString()), 1);
                 OcistiPoljazaFun();
                 System.Windows.MessageBox.Show("Fun1 Uspesno Izvrsena!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
             }
