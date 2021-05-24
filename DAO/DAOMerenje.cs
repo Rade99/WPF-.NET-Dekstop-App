@@ -12,26 +12,10 @@ namespace DAO
     public class DAOMerenje : IDAOMerenje
     {
 
-        private List<string> izmerenaPodrucja;
-        private List<IMerenje> merenjaPoDanuIVremenu;
-        private List<IMerenje> merenjaPoSifriPodrucja;
-        private DateTime poslednjeMerenje;
-        private bool proveraUpisaNovogMerenja;
-        private bool postojanjeMerenjaZaDatuSifruTogDana;
-        string lokacijaDB = @"C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\DAO\DB\DB.db";
+        
+        string lokacijaDB = @"C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\DB\DB.db";
 
-        public List<string> IzmerenaPodrucja { get => izmerenaPodrucja; set => izmerenaPodrucja = value; }
-
-        public List<IMerenje> MerenjaPoDanuIVremenu { get => merenjaPoDanuIVremenu; set => merenjaPoDanuIVremenu = value; }
-
-        public List<IMerenje> MerenjaPoSifriPodrucja { get => merenjaPoSifriPodrucja; set => merenjaPoSifriPodrucja = value; }
-
-        public DateTime PoslednjeMerenje { get => poslednjeMerenje; set => poslednjeMerenje = value; }
-
-        public bool ProveraUpisaNovogMerenja { get => proveraUpisaNovogMerenja; set => proveraUpisaNovogMerenja = value; }
-
-        public bool PostojanjeMerenjaZaDatuSifruTogDana { get => postojanjeMerenjaZaDatuSifruTogDana; set => postojanjeMerenjaZaDatuSifruTogDana = value; }
-
+      
         
 
 
@@ -57,7 +41,7 @@ namespace DAO
                 }
             }
 
-            IzmerenaPodrucja = temp;
+            
             return temp;
         }
 
@@ -104,11 +88,11 @@ namespace DAO
                 }
             }
 
-            MerenjaPoDanuIVremenu = merenja;
+           
             return merenja;
         }
 
-        public List<IMerenje> GetMerenjaPoSifriPodrucija(string sifra)
+        public List<IMerenje> GetMerenjaPoSifriPodrucija(string sifra,DateTime dt)
         {
 
             List<IMerenje> merenja = new List<IMerenje>();
@@ -120,8 +104,9 @@ namespace DAO
                 using (SQLiteCommand cmd = new SQLiteCommand(con))
                 {
 
-                    cmd.CommandText = "select * from Merenja,Podrucja where Merenja.sfr=@sifra and Merenja.sfr = Podrucja.sfr";
+                    cmd.CommandText = "select * from Merenja,Podrucja where Merenja.sfr=@sifra and Merenja.sfr = Podrucja.sfr and date(dv)=date(@dt)";
 
+                    cmd.Parameters.AddWithValue("@dt", dt.ToString("s"));
                     cmd.Parameters.AddWithValue("@sifra", sifra);
 
                     using (SQLiteDataReader reader = cmd.ExecuteReader())
@@ -146,7 +131,7 @@ namespace DAO
                 }
             }
 
-            MerenjaPoSifriPodrucja = merenja;
+           
             return merenja;
         }
 
@@ -169,7 +154,7 @@ namespace DAO
                         using (SQLiteDataReader reader = cmd.ExecuteReader())
                         {
                             reader.Read();
-                            PoslednjeMerenje = reader.GetDateTime(0);
+                            
                             return reader.GetDateTime(0);
                         }
                     }
@@ -203,12 +188,12 @@ namespace DAO
                         {
                             if (reader.HasRows)
                             {
-                                PostojanjeMerenjaZaDatuSifruTogDana = true;
+                                
                                 return true;
                             }
                             else
                             {
-                                PostojanjeMerenjaZaDatuSifruTogDana = false;
+                               
                                 return false;
                             }
                         }

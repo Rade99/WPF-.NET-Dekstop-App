@@ -11,7 +11,7 @@ namespace DAO
 {
     public class DAORezultat : IDAORezultat
     {
-        string lokacijaDB = @"C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\DAO\DB\DB.db";
+        string lokacijaDB = @"C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\DB\DB.db";
         private List<IRezultat> rezultati;
 
         public List<IRezultat> Rezultati { get => rezultati; set => rezultati = value; }

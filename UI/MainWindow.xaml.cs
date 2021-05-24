@@ -77,7 +77,11 @@ namespace UI
                 DatePick.BorderThickness = new Thickness(3);
             }
 
-            if(medju.GetMerenjaPoDanuIVremenuMedju((DateTime)DatePick.SelectedDate, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString())).Count == 0)
+            if(rez == false)
+            {
+                return false;
+            }
+            else if(medju.GetMerenjaPoDanuIVremenuMedju((DateTime)DatePick.SelectedDate, medju.GetSifreByNazivPodrucjaMedju(ComboSifra.SelectedItem.ToString())).Count == 0)
             {
                 rez = false;
                 DatePick.BorderBrush = Brushes.Red;
@@ -99,6 +103,7 @@ namespace UI
                 ComboNazivPodrucja.BorderBrush = Brushes.Red;
                 ComboNazivPodrucja.BorderThickness = new Thickness(3);
                 MessageBox.Show("Selektuj podrucje");
+                return false;
             }
             else
             {
@@ -112,6 +117,7 @@ namespace UI
                 DateTimePicker.BorderBrush = Brushes.Red;
                 DateTimePicker.BorderThickness = new Thickness(3);
                 MessageBox.Show("Selektuj Datum");
+               
             }
             else
             {
@@ -119,7 +125,11 @@ namespace UI
                 DateTimePicker.BorderThickness = new Thickness(3);
             }
 
-            if(MerenjePrePoslednjeg() == false)
+            if(rez == false)
+            {
+                return false;
+            }
+            else if(MerenjePrePoslednjeg() == false)
             {
                 rez = false;
             }
@@ -161,7 +171,7 @@ namespace UI
         private bool MerenjePrePoslednjeg()
         {
 
-            if(medju.GetMerenjaPoSifriPodrucijaMedju(medju.GetSifreByNazivPodrucjaMedju(ComboNazivPodrucja.SelectedItem.ToString())).Count==0)
+            if(medju.GetMerenjaPoSifriPodrucijaMedju(medju.GetSifreByNazivPodrucjaMedju(ComboNazivPodrucja.SelectedItem.ToString()), (DateTime)DateTimePicker.Value).Count==0)
             {
                 return true;
             }

@@ -19,7 +19,7 @@ namespace ResidentExecutor
 
 
             //string path = @"..\..\..\ResidentExecutor\CSV_file\rezidentne_funkcije.csv";
-            string path = @"C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\ResidentExecutor\CSV_file\rezidentne_funkcije.csv";
+            string path = @"C:\fax\res\ProjacSaTestovima\FinalFinalRES\ResidentExecutor\CSV_file\rezidentne_funkcije.csv";
             using (var reader = new StreamReader(path))
             {
                 while (!reader.EndOfStream)

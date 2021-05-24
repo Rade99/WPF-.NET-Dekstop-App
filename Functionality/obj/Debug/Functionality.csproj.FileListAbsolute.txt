@@ -46,3 +46,19 @@ C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Functionality\bin\Debug\D
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Functionality\bin\Debug\ResidentExecutor.pdb
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Functionality\bin\Debug\System.Data.SQLite.xml
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Functionality\obj\Debug\Functionality.csproj.CopyComplete
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\Functionality.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\Functionality.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\Common.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\DAO.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\ResidentExecutor.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\System.Data.SQLite.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\Common.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\DAO.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\DAO.dll.config
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\ResidentExecutor.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\bin\Debug\System.Data.SQLite.xml
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\obj\Debug\Functionality.csprojAssemblyReference.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\obj\Debug\Functionality.csproj.CoreCompileInputs.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\obj\Debug\Functionality.csproj.CopyComplete
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\obj\Debug\Functionality.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Functionality\obj\Debug\Functionality.pdb

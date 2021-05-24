@@ -52,3 +52,21 @@ C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\DAO\bin\Debug\EntityFrame
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\DAO\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\DAO\bin\Debug\System.Data.SQLite.xml
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\DAO.dll.config
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\DAO.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\DAO.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\Common.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\EntityFramework.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\System.Data.SQLite.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\System.Data.SQLite.EF6.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\System.Data.SQLite.Linq.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\Common.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\EntityFramework.xml
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\bin\Debug\System.Data.SQLite.xml
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\obj\Debug\DAO.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\obj\Debug\DAO.pdb

@@ -16,3 +16,9 @@ C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Common\obj\Debug\Common.d
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Common\obj\Debug\Common.pdb
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Common\bin\Debug\Common.dll
 C:\Users\ShinobiCooL\Desktop\RES Projekat Final-GitHub\Common\bin\Debug\Common.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\bin\Debug\Common.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\bin\Debug\Common.pdb
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\obj\Debug\Common.dll
+C:\fax\res\ProjacSaTestovima\FinalFinalRES\Common\obj\Debug\Common.pdb

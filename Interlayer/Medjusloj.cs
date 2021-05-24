@@ -51,9 +51,9 @@ namespace Interlayer
             return dAOPodrucja.GetSifreByNazivPodrucja(nzv);
         }
 
-        public List<IMerenje> GetMerenjaPoSifriPodrucijaMedju(string sifra)
+        public List<IMerenje> GetMerenjaPoSifriPodrucijaMedju(string sifra,DateTime selectedDate)
         {
-            return dAOMerenje.GetMerenjaPoSifriPodrucija(sifra);
+            return dAOMerenje.GetMerenjaPoSifriPodrucija(sifra, selectedDate);
         }
 
         public DateTime GetPoslednjeMerenjeMedju(string sifra, DateTime dv)
@@ -74,6 +74,11 @@ namespace Interlayer
         public void UpisNovogMerenjaMedju(string sifra, DateTime vrememerenja, float potrosnja)
         {
             dAOMerenje.UpisNovogMerenja(sifra, vrememerenja, potrosnja);
+        }
+
+        public List<IRezultat> GetRezultatMedju()
+        {
+            return dAORezultat.GetRezultat(); 
         }
 
 

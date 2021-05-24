@@ -1,5 +1,6 @@
 ﻿using Common.DAO;
 using DAO;
+using Interlayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,10 +26,11 @@ namespace UI
 
         public static BindingList<IRezultat> listBinding { get; set; }
         DAORezultat dAORezultat = new DAORezultat();
+        Medjusloj medju = new Medjusloj();
         public Rezultati()
         {
 
-            List<IRezultat> rezultati = dAORezultat.GetRezultat();
+            List<IRezultat> rezultati = medju.GetRezultatMedju();
             listBinding = new BindingList<IRezultat>(rezultati);
             DataContext = this;
             InitializeComponent();
@@ -39,11 +41,17 @@ namespace UI
             this.Close();
         }
 
+        
+
         private void RefreshBtn_Click(object sender, RoutedEventArgs e)
         {
-            List<IRezultat> rezultati = dAORezultat.GetRezultat();
+            List<IRezultat> rezultati = medju.GetRezultatMedju();
             listBinding = new BindingList<IRezultat>(rezultati);
-            DataContext = this;
+            Grid.ItemsSource = null;
+            Grid.ItemsSource = listBinding;
+            
+            //DataContext = this;
+          
         }
     }
 }

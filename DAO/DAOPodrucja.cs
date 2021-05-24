@@ -10,7 +10,7 @@ namespace DAO
 {
     public class DAOPodrucja : IDAOPodrucja
     {
-        string lokacijaDB = @"C:\Users\ShinobiCooL\Desktop\RES Projekat Unit Testovi\DAO\DB\DB.db";
+        string lokacijaDB = @"C:\fax\res\ProjacSaTestovima\FinalFinalRES\DAO\DB\DB.db";
         public string GetSifreByNazivPodrucja(string nzv)
         {
             using (SQLiteConnection con = new SQLiteConnection("data source=" + lokacijaDB))

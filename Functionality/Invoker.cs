@@ -62,7 +62,7 @@ namespace Functionality
                     foreach (var fun in funkcije)
                     {
                         UspenoIzvrseneFunkcije.Add(fun.Execute(merenja, daomerenje,daorezultat));
-                        //Thread.Sleep(5000);
+                        Thread.Sleep(5000);
                     }
                 }
 
