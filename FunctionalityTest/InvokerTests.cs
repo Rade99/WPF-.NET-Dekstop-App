@@ -33,7 +33,7 @@ namespace FunctionalityTest
 
         
         [Test]
-        public void InvokeResidentFun1PositiveTest() // nem pojma
+        public void InvokeResidentFun1PositiveTest() 
         {
             string datum = "2005-05-05 22:12 PM";
 
