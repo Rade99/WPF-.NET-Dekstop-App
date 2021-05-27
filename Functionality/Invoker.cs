@@ -22,19 +22,9 @@ namespace Functionality
         //moramo nesto proveravati pa neka to bude uspesnost izvrsenja funkcioje execute
 
 
-        DAOMerenje daoMerenje = new DAOMerenje();
-        // readonly ICsvInput csvParams;
-
-        // public DAOMerenje DaoMerenje { get => daoMerenje; set => daoMerenje = value; }
-
         public void InvokeResident(IDAOMerenje daomerenje, ICsvInput csvParams, IDAORezultat daorezultat)
         {
-            // Citanje csvReader = new Citanje();
-            // ICsvInput csvParams = csvReader.GetCsvParams();
-            // csvParams = csvReader.GetCsvParams();
-
            
-
             List<IFunctions> funkcije = new List<IFunctions>();
 
             foreach (var item in csvParams.csvFunkcije)
@@ -56,7 +46,7 @@ namespace Functionality
 
                 foreach (var nazivPodrucja in csvParams.csvPodrucja)
                 {
-                    List<IMerenje> merenja = daomerenje.GetMerenjaPoDanuIVremenu(DateTime.Now.Date, nazivPodrucja); // DateTime.Now.Date bilo samo DateTime.Now
+                    List<IMerenje> merenja = daomerenje.GetMerenjaPoDanuIVremenu(DateTime.Now.Date, nazivPodrucja); 
                 if (merenja.Count == 0)
                         continue;
                     foreach (var fun in funkcije)

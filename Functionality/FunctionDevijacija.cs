@@ -13,8 +13,7 @@ namespace Functionality
 {
     public class FunctionDevijacija : IFunctions
     {
-        DAOMerenje dAOMerenje = new DAOMerenje();
-        DAORezultat dAORezultat = new DAORezultat();
+       
         PoslednjeMerenje poslednjeMerenje = new PoslednjeMerenje();
         public bool Execute(List<IMerenje> merenja,IDAOMerenje daomerenje,IDAORezultat daorezultat)
         {
@@ -23,7 +22,7 @@ namespace Functionality
             DateTime poslMerenje = daomerenje.GetPoslednjeMerenje(merenja[0].sifraPodrucija,merenja[0].vreme);
             if (poslednjeMerenje.ProveraPreUpisa(merenja[0].sifraPodrucija, poslMerenje,3, daomerenje,daorezultat) == true)
             {
-                dAORezultat.UpisDevijacija(merenja[0].sifraPodrucija, merenja[0].nazivPodrucija, DateTime.Now, poslMerenje, devijacija);
+                daorezultat.UpisDevijacija(merenja[0].sifraPodrucija, merenja[0].nazivPodrucija, DateTime.Now, poslMerenje, devijacija);
                 return true;
             }
 

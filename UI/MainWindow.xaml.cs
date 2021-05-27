@@ -27,9 +27,7 @@ namespace UI
 
         List<string> izmerenaPodrucja;
         List<string> svaPodrucjaTemp;
-        DAOPodrucja dAOPodrucja = new DAOPodrucja();
-        DAOMerenje dAOMerenje = new DAOMerenje();
-        Invoker invoker = new Invoker();
+      
         Task t;
         Medjusloj medju = new Medjusloj();
 
@@ -56,7 +54,7 @@ namespace UI
                 rez = false;
                 ComboSifra.BorderBrush = Brushes.Red;
                 ComboSifra.BorderThickness = new Thickness(3);
-                MessageBox.Show("Selektuj sifru mada bolje podrucje podrucja");
+                MessageBox.Show("Selektuj podrucje");
             }
             else
             {
@@ -230,7 +228,7 @@ namespace UI
 
             
 
-            foreach (var item in medju.GetSveSifreMedju())
+            foreach (var item in medju.GetSveSifreMedju()) 
             {
 
                 if (TextBoxSifraGeoPodrucja.Text.Trim() == item)
@@ -265,7 +263,7 @@ namespace UI
 
            
 
-            foreach (var item in medju.GetSveSifreMedju())
+            foreach (var item in medju.GetSvaPodrucjaMedju())
             {
                 if (TextBoxNazivGeoPodrucja.Text.Trim() == item)
                 {
@@ -357,26 +355,7 @@ namespace UI
             }
         }
 
-        /* private void ResidentCheck_Click(object sender, RoutedEventArgs e)
-         {
-             var ts = new CancellationTokenSource();
-             CancellationToken ct = ts.Token;
-
-
-                 if (ResidentCheck.IsChecked == true)
-                 {
-                     t = new Task(() =>
-                     {
-                         invoker.InvokeResident();
-                     }, ct);
-                     t.Start();
-                 }
-                 else
-                 {
-                     ts.Cancel();
-                 }
-
-         }*/
+       
 
         private void ResidentCheck_Click(object sender, RoutedEventArgs e)
         {

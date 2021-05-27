@@ -13,8 +13,6 @@ namespace Functionality
 {
     public class FunctionMax : IFunctions
     {
-        DAOMerenje dAOMerenje = new DAOMerenje();
-        DAORezultat dAORezultat = new DAORezultat();
         PoslednjeMerenje poslednjeMerenje = new PoslednjeMerenje();
         public bool Execute(List<IMerenje> merenja, IDAOMerenje daomerenje, IDAORezultat daorezultat)
         {
@@ -44,7 +42,7 @@ namespace Functionality
 
             if (poslednjeMerenje.ProveraPreUpisa(merenja[0].sifraPodrucija, poslMerenje,2,daomerenje,daorezultat) == true)
             {
-                dAORezultat.UpisMax(merenja[0].sifraPodrucija, merenja[0].nazivPodrucija, DateTime.Now, poslMerenje, maksimum);
+                daorezultat.UpisMax(merenja[0].sifraPodrucija, merenja[0].nazivPodrucija, DateTime.Now, poslMerenje, maksimum);
                 return true;
             }
             return false;

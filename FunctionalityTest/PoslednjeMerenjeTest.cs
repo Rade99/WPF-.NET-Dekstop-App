@@ -28,7 +28,7 @@ namespace FunctionalityTest
         }
 
         [Test] 
-        public void PoslednjeMerenjeFirstIfPassedPositiveTest() // nem pojma
+        public void PoslednjeMerenjeFirstIfPassedPositiveTest() 
         {
             string datum = "2005-05-05 22:12 PM";
 
@@ -38,7 +38,7 @@ namespace FunctionalityTest
         }
 
         [Test]
-        public void PoslednjeMerenjeSecondIfPassedPositiveTest() // nem pojma
+        public void PoslednjeMerenjeSecondIfPassedPositiveTest() 
         {
             string datum = "2005-05-05 22:12 PM";
 
@@ -50,7 +50,7 @@ namespace FunctionalityTest
         }
 
         [Test]
-        public void PoslednjeMerenjeThirdIfPassedPositiveTest() // nem pojma
+        public void PoslednjeMerenjeThirdIfPassedPositiveTest()
         {
             string datum = "2005-05-05 22:12 PM";
 
@@ -64,7 +64,7 @@ namespace FunctionalityTest
         }
 
         [Test]
-        public void AllIfPassedTest() // nem pojma
+        public void AllIfPassedTest() 
         {
             string datum = "2005-05-05 22:12 PM";
 

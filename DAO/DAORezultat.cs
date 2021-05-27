@@ -315,7 +315,7 @@ namespace DAO
             }
         }
 
-        public bool ProveraPraznoPoljeZaPotrosnju(string sifra, DateTime vrememerenja, int mmd) //mmd min max devijacija
+        public bool ProveraPraznoPoljeZaPotrosnju(string sifra, DateTime vrememerenja, int mmd) 
         {
 
             using (SQLiteConnection con = new SQLiteConnection("data source=" + lokacijaDB))
@@ -328,7 +328,7 @@ namespace DAO
 
                     if(mmd==1)
                     {
-                        // cmd.Parameters.AddWithValue("@mmd", "minm");
+                       
                         cmd.CommandText = "select minm from Rezultati where sfr=@sifra and date(psm) = date(@psm)";
 
                         cmd.Parameters.AddWithValue("@sifra", sifra);
@@ -336,7 +336,7 @@ namespace DAO
                     }
                     else if(mmd==2)
                     {
-                        // cmd.Parameters.AddWithValue("@mmd", "maxm");
+                      
                         cmd.CommandText = "select maxm from Rezultati where sfr=@sifra and date(psm) = date(@psm)";
 
                         cmd.Parameters.AddWithValue("@sifra", sifra);
@@ -344,7 +344,7 @@ namespace DAO
                     }
                     else if(mmd==3)
                     {
-                        // cmd.Parameters.AddWithValue("@mmd", "dev");
+                        
                         cmd.CommandText = "select dev from Rezultati where sfr=@sifra and date(psm) = date(@psm)";
 
                         cmd.Parameters.AddWithValue("@sifra", sifra);

@@ -11,8 +11,7 @@ namespace Functionality
 {
     public class PoslednjeMerenje : IPoslednjeMerenje
     {
-        DAORezultat dAORezultat = new DAORezultat(); // dali ovo da smestim u konstruktor mozda
-        DAOMerenje dAOMerenje = new DAOMerenje();
+        
 
         public bool ProveraPreUpisa(string sifra, DateTime poslednjemerenje, int mmd, IDAOMerenje daomerenje, IDAORezultat daorezultat)
         {
@@ -25,7 +24,7 @@ namespace Functionality
             {
                 return false;
             }
-            if(!dAORezultat.ProveraPraznoPoljeZaPotrosnju(sifra, poslednjemerenje, mmd)) // treba da upise ako je kolona null svejedno
+            if(!daorezultat.ProveraPraznoPoljeZaPotrosnju(sifra, poslednjemerenje, mmd)) // treba da upise ako je kolona null svejedno
             {
                 return true;
             }
